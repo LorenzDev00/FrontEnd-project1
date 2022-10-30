@@ -1,0 +1,7 @@
+@import './colours';
+
+.main button:hover{
+    outline: solid 2px $par-col;
+    background-color: transparent;
+    color: $par-col;
+}

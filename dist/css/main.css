@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+main h1 {
+  color: hsl(0deg, 0%, 95%);
+}
+main p {
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+main button {
+  background-color: hsl(0deg, 0%, 95%);
+}
+main .Sedans {
+  background-color: hsl(31deg, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+main .Sedans button {
+  color: hsl(31deg, 77%, 52%);
+}
+main .Suvs {
+  background-color: hsl(184deg, 100%, 22%);
+}
+main .Suvs button {
+  color: hsl(184deg, 100%, 22%);
+}
+main .Luxury {
+  background-color: hsl(179deg, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+main .Luxury button {
+  color: hsl(179deg, 100%, 13%);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0deg, 0%, 95%);
+  flex-direction: column;
+}
+body main {
+  display: flex;
+}
+body main div {
+  height: 25em;
+  width: 15em;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body main div section h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+body main div section p {
+  padding-right: 45px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+}
+body main div button {
+  padding: 12px 25px;
+  border-radius: 25px;
+  margin-right: 90px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  border: 0;
+}
+body footer {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+  padding: 30px;
+}
+
+@media screen and (max-width: 843px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .Sedans {
+    border-radius: 10px 10px 0px 0px;
+  }
+  .main .Luxury {
+    border-radius: 0px 0px 10px 10px;
+  }
+}
+main h1 {
+  color: hsl(0deg, 0%, 95%);
+}
+main p {
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+main button {
+  background-color: hsl(0deg, 0%, 95%);
+}
+main .Sedans {
+  background-color: hsl(31deg, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+main .Sedans button {
+  color: hsl(31deg, 77%, 52%);
+}
+main .Suvs {
+  background-color: hsl(184deg, 100%, 22%);
+}
+main .Suvs button {
+  color: hsl(184deg, 100%, 22%);
+}
+main .Luxury {
+  background-color: hsl(179deg, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+main .Luxury button {
+  color: hsl(179deg, 100%, 13%);
+}
+
+main h1 {
+  color: hsl(0deg, 0%, 95%);
+}
+main p {
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+main button {
+  background-color: hsl(0deg, 0%, 95%);
+}
+main .Sedans {
+  background-color: hsl(31deg, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+main .Sedans button {
+  color: hsl(31deg, 77%, 52%);
+}
+main .Suvs {
+  background-color: hsl(184deg, 100%, 22%);
+}
+main .Suvs button {
+  color: hsl(184deg, 100%, 22%);
+}
+main .Luxury {
+  background-color: hsl(179deg, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+main .Luxury button {
+  color: hsl(179deg, 100%, 13%);
+}
+
+.main button:hover {
+  outline: solid 2px hsla(0deg, 0%, 100%, 0.75);
+  background-color: transparent;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}/*# sourceMappingURL=main.css.map */

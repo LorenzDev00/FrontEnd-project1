@@ -1,0 +1,42 @@
+$sedans-bk-col : hsl(31, 77%, 52%);
+$suvs-bk-col: hsl(184, 100%, 22%);
+$luxury-bk-col: hsl(179, 100%, 13%);
+$par-col: hsla(0, 0%, 100%, 0.75);
+$bk-he-btn-col: hsl(0, 0%, 95%);
+
+main{
+    h1{
+        color: $bk-he-btn-col;
+    }
+
+    p{
+       color: $par-col; 
+    }
+
+    button{
+        background-color: $bk-he-btn-col;
+    }
+
+    .Sedans{
+        background-color: $sedans-bk-col;
+        button{
+            color: $sedans-bk-col;
+        }
+        border-radius: 10px 0px 0px 10px;
+    }
+    
+    .Suvs{
+        background-color: $suvs-bk-col;
+        button{
+            color: $suvs-bk-col;
+        }
+    }
+    
+    .Luxury{
+        background-color: $luxury-bk-col ;
+        button{
+            color: $luxury-bk-col;
+        }
+        border-radius: 0px 10px 10px 0px;
+    }
+}

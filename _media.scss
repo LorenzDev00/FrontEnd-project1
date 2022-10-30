@@ -1,0 +1,14 @@
+@media screen and (max-width: 843px) {
+    .main{
+      display: flex;
+      flex-direction: column;
+
+      .Sedans{
+        border-radius: 10px 10px 0px 0px;
+      }
+
+      .Luxury{
+        border-radius: 0px 0px 10px 10px;
+      }
+    }
+  }

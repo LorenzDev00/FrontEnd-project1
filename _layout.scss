@@ -1,0 +1,56 @@
+@import './typo';
+@import './colours';
+// Not sure about the accuracy of the code above, is that "structurally" correct ?
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $bk-he-btn-col;
+    flex-direction: column;
+
+    main {
+        display: flex;
+
+        div {
+            //border: solid 1px red;
+            height: 25em;
+            width: 15em;
+            padding: 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            section {
+                h1 {
+                    font-family: $big-Sh-Display;
+                    font-weight: $weight7;
+                    font-size: 40px;
+                }
+
+                p {
+                    padding-right: 45px;
+                    font-family: $lexend-Deca;
+                    font-weight: $weight4;
+                    font-size: 12px;
+                    line-height: 200%;
+                }
+            }
+
+            button {
+                padding: 12px 25px;
+                border-radius: 25px;
+                margin-right: 90px;
+                font-family: $lexend-Deca;
+                font-weight: $weight4;
+                border: 0; 
+            }
+        }
+    }
+
+    footer{
+        font-family: $lexend-Deca;
+        font-weight: 300;
+        padding: 30px;
+    }
+}
